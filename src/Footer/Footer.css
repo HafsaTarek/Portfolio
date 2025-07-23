@@ -1,5 +1,5 @@
 .footer {
-  background-color: #0B0B15;
+  background-color: var(--background-color);
   color: #ffffff;
   padding: 20px 0;
   font-size: 14px;
@@ -8,8 +8,9 @@
 .footer-text {
   margin-bottom: 10px;
   font-weight: 400;
-  letter-spacing: 0.5px;
-  font-size: 1.02rem;
+  letter-spacing: 0.5px !important;
+  font-size: 1.02rem !important;
+  color:var(--text-color) ;
 }
 
 .footer-icons {
@@ -25,6 +26,6 @@
 }
 
 .footer-link:hover {
-  color: #ffffff;
+  color: var(--primary-color);
   transform: scale(1.1);
 }

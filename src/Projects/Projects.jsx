@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "Coffee Shop",
       description:
-        "A simple and elegant coffee shop website built using HTML5 and CSS3.",
+        "A simple and elegant coffee shop website built using HTML and CSS.",
       image: "/Images/Coffee Shop.png",
       liveLink: "https://hafsatarek.github.io/Coffee-Shop/",
       codeLink: "https://github.com/HafsaTarek/Coffee-Shop",
@@ -19,20 +19,20 @@ const Projects = () => {
       codeLink: "https://github.com/HafsaTarek/Pet-Shop",
     },
     {
-      title: "Purely Modest Store",
-      description:
-        "A modest fashion online store styled with CSS Grid and Flexbox.",
-      image: "/images/purelyModest.png",
-      liveLink: "https://hafsatarek.github.io/Purely-Modest/",
-      codeLink: "https://github.com/HafsaTarek/Purely-Modest",
-    },
-    {
       title: "Resort Website",
       description:
-        "A multi-section resort landing page using HTML, CSS, and animations.",
+        "A multi-section resort landing page using HTML5, CSS,3 and Bootstrap.",
       image: "/images/resort.png",
       liveLink: "https://hafsatarek.github.io/Resort-website/",
       codeLink: "https://github.com/HafsaTarek/Resort-website",
+    },
+    {
+      title: "Purely Modest Store",
+      description:
+        "A modest fashion online store styled with HTML5,CSS3 and JS.",
+      image: "/images/purelyModest.png",
+      liveLink: "https://hafsatarek.github.io/Purely-Modest/",
+      codeLink: "https://github.com/HafsaTarek/Purely-Modest",
     },
     {
       title: "Mental Health Website",
@@ -56,7 +56,6 @@ const Projects = () => {
     <section id="projects" className="projects-section">
       <div className="container text-center">
         <h2 className="section-title">Projects</h2>
-        <p className="section-subtitle">A few things I’ve built recently</p>
         <div className="row justify-content-center mt-4">
           {projects.map((project, index) => (
             <div className="col-md-5 project-card m-2 mb-4" key={index}>

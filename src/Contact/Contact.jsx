@@ -8,28 +8,34 @@ const Contact = () => {
         <h2 className="section-title">Contact Me</h2>
         <p className="contact-text">Let’s get in touch!</p>
         <div className="contact-links d-flex flex-column align-items-center gap-3 mt-4">
+          {/* Email */}
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:hafsatarek4@gmail.com"
             className="contact-link"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaEnvelope className="icon" /> hafsatarek4@gmail.com
+            <FaEnvelope className="icon" /> Email: hafsatarek4@gmail.com
           </a>
 
+          {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/hafsa-hikal-87a591318/"
             className="contact-link"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="icon" />{" "}
-            https://www.linkedin.com/in/hafsa-hikal-87a591318/
+            <FaLinkedin className="icon" /> LinkedIn: Hafsa Hikal
           </a>
 
-          <a href="/path-to-your-cv.pdf" className="contact-link" download>
-            <FaFileDownload className="icon" />
-            https://drive.google.com/file/d/1cSxQGtXhXnAeaQk6D8WscZhCxFckGw9P/view?usp=drive_link
+          {/* CV */}
+          <a
+            href="https://drive.google.com/file/d/1cSxQGtXhXnAeaQk6D8WscZhCxFckGw9P/view?usp=drive_link"
+            className="contact-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFileDownload className="icon" /> View My CV
           </a>
         </div>
       </div>
