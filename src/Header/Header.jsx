@@ -57,9 +57,15 @@ const Header = () => {
               </ScrollLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <ScrollLink
+                className="nav-link"
+                to="projects"
+                smooth={true}
+                duration={200}
+                offset={-70}
+              >
                 Projects
-              </Link>
+              </ScrollLink>
             </li>
             <li className="nav-item">
               <ScrollLink

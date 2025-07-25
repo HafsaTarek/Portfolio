@@ -7,30 +7,30 @@ const Projects = () => {
       title: "Coffee Shop",
       description:
         "A simple and elegant coffee shop website built using HTML and CSS.",
-      image: "/Images/Coffee Shop.png",
+      image: `${process.env.PUBLIC_URL}/Images/coffee shop.png`,
       liveLink: "https://hafsatarek.github.io/Coffee-Shop/",
       codeLink: "https://github.com/HafsaTarek/Coffee-Shop",
     },
     {
       title: "Pet Shop",
       description: "Responsive pet store website built with HTML5 and CSS3.",
-      image: "/Images/Pet Store.png",
+      image: `${process.env.PUBLIC_URL}/Images/pet store.png`,
       liveLink: "https://hafsatarek.github.io/Pet-Shop/",
       codeLink: "https://github.com/HafsaTarek/Pet-Shop",
     },
     {
       title: "Resort Website",
       description:
-        "A multi-section resort landing page using HTML5, CSS,3 and Bootstrap.",
-      image: "/images/resort.png",
+        "A multi-section resort landing page using HTML5, CSS3 and Bootstrap.",
+      image: `${process.env.PUBLIC_URL}/Images/resort.png`,
       liveLink: "https://hafsatarek.github.io/Resort-website/",
       codeLink: "https://github.com/HafsaTarek/Resort-website",
     },
     {
       title: "Purely Modest Store",
       description:
-        "A modest fashion online store styled with HTML5,CSS3 and JS.",
-      image: "/images/purelyModest.png",
+        "A modest fashion online store styled with HTML5, CSS3 and JS.",
+      image: `${process.env.PUBLIC_URL}/Images/PurelyModest.png`,
       liveLink: "https://hafsatarek.github.io/Purely-Modest/",
       codeLink: "https://github.com/HafsaTarek/Purely-Modest",
     },
@@ -38,7 +38,7 @@ const Projects = () => {
       title: "Mental Health Website",
       description:
         "A responsive mental health awareness site using HTML5, CSS3, and Bootstrap.",
-      image: "/images/mental Health.png",
+      image: `${process.env.PUBLIC_URL}/Images/Mental health.png`,
       liveLink: "https://hafsatarek.github.io/Mental-health-Website/",
       codeLink: "https://github.com/HafsaTarek/Mental-health-Website",
     },
@@ -46,7 +46,7 @@ const Projects = () => {
       title: "GlamGourmet - Food Delivery App",
       description:
         "A React-based modern food delivery platform with routing and cart features.",
-      image: "/images/GlamGourmet.png",
+      image: `${process.env.PUBLIC_URL}/Images/glamgourmet.png`,
       liveLink: "https://hafsatarek.github.io/GlamGourmet/",
       codeLink: "https://github.com/HafsaTarek/GlamGourmet",
     },

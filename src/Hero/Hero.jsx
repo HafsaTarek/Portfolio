@@ -17,15 +17,16 @@ const Hero = (_) => {
               I love crafting beautiful and functional websites with React,
               HTML, CSS & UI/UX magic.
             </p>
-            <Link to="/projects" className="btn btn-primary mt-4 fw-bold ">
+
+            <a href="#projects" className="btn btn-primary mt-3 fw-bold">
               View My Work
-            </Link>
+            </a>
           </div>
 
           {/* Image Col */}
           <div className="col-md-6 text-center mt-4">
             <img
-              src="/Images/WhatsApp Image 2025-07-18 at 23.55.50_15524148.jpg"
+              src={`${process.env.PUBLIC_URL}/Images/Hafsa.jpg`}
               alt="Hafsa Illustration"
               className="img-fluid hero-img"
             />

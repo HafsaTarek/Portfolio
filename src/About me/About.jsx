@@ -7,7 +7,7 @@ const About = (_) => {
         <div className="row align-items-center">
           <div className="col-md-5 text-center  mb-4 mb-md-0">
             <img
-              src="/Images/WhatsApp Image 2025-07-18 at 23.55.50_15524148.jpg"
+              src={`${process.env.PUBLIC_URL}/Images/Hafsa.jpg`}
               alt="Hafsa"
               className="img-fluid rounded-4 about-img"
             />
